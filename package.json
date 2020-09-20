@@ -8,6 +8,9 @@
   },
   "author": "Jackson Lloyd",
   "license": "MIT",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "build:webpack": "webpack",
     "build": "npm run lint && npm run build:webpack",
